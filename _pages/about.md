@@ -17,4 +17,4 @@ I have pursued research on a range of diverse topics, including:
 - Data analysis and satellite validation
 - Spatial heterogeneity modeling
 
-Please check my [link](/_pages/cv/"Github") or Research web pages for specific studies that I've worked on.
+Please check my [CV](cv) or Research web pages for specific studies that I've worked on.
