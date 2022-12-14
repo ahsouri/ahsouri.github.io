@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "goatcounter" # false (default), "google", "google-universal", "custom"
+  provider               :  "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -84,7 +84,7 @@ author:
   avatar           : "amir.png"
   bio              : "Atmospheric Scientist"
   location         : "Boston, MA"
-  employer         : "Harvard-Smithsonian Center for Astrophysics"
+  employer         : "Harvard-Smithsonian CFA"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=CyNCGRAAAAAJ&hl=en"
   email            : "ahsouri@gmail.com"

@@ -1,0 +1,13 @@
+---
+title: "The Impact of Springtime-Transported Air Pollutants on Local Air Quality With Satellite-Constrained NOx Emission Adjustments Over East Asia"
+collection: publications
+permalink: /publication/2022-01-01-The-Impact-of-Springtime-Transported-Air-Pollutants-on-Local-Air-Quality-With-Satellite-Constrained-NOx-Emission-Adjustments-Over-East-Asia
+excerpt: '\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2021JD035251'
+date: 2022-01-01
+venue: 'Journal of Geophysical Research: Atmospheres'
+paperurl: 'https://onlinelibrary.wiley.com/doi/abs/10.1029/2021JD035251'
+citation: ' Jia Jung,  Yunsoo Choi,  Amir Souri,  Seyedali Mousavinezhad,  Alqamah Sayeed,  Kyunghwa Lee, &quot;The Impact of Springtime-Transported Air Pollutants on Local Air Quality With Satellite-Constrained NOx Emission Adjustments Over East Asia.&quot; Journal of Geophysical Research: Atmospheres, 2022.'
+---
+\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2021JD035251
+
+[Access paper here](https://onlinelibrary.wiley.com/doi/abs/10.1029/2021JD035251){:target="_blank"}
