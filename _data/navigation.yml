@@ -6,10 +6,11 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Research"
+    url: /research/
+
   - title: "Open-Source Tools"
     url: /software/
-
-  - title: "Talks"
-    url: /talks/   
+ 
 
 
