@@ -7,4 +7,3 @@ venue: 'Atmospheric Environment'
 paperurl: 'http://www.sciencedirect.com/science/article/pii/S1352231016300875'
 citation: ' Lijun Diao,  Anirban Roy,  Beata Czader,  Shuai Pan,  Wonbae Jeon,  Amir Souri,  Yunsoo Choi, &quot;Modeling the effect of relative humidity on nitrous acid formation in the Houston area.&quot; Atmospheric Environment, 2016.'
 ---
-[Access paper here](http://www.sciencedirect.com/science/article/pii/S1352231016300875){:target="_blank"}

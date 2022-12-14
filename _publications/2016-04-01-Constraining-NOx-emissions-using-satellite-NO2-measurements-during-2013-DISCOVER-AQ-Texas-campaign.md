@@ -7,4 +7,3 @@ venue: 'Atmospheric Environment'
 paperurl: 'http://www.sciencedirect.com/science/article/pii/S1352231016301315'
 citation: ' Amir Souri,  Yunsoo Choi,  Wonbae Jeon,  Xiangshang Li,  Shuai Pan,  Lijun Diao,  David Westenbarger, &quot;Constraining NOx emissions using satellite NO2 measurements during 2013 DISCOVER-AQ Texas campaign.&quot; Atmospheric Environment, 2016.'
 ---
-[Access paper here](http://www.sciencedirect.com/science/article/pii/S1352231016301315){:target="_blank"}

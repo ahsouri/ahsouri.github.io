@@ -7,4 +7,3 @@ venue: 'Atmospheric Measurement Techniques'
 paperurl: 'https://www.atmos-meas-tech.net/12/5183/2019/'
 citation: ' Huiqun Wang,  Amir Souri,  Gonzalo González,  Xiong Liu,  Kelly Chance, &quot;Ozone Monitoring Instrument (OMI) Total Column Water Vapor version 4 validation and applications.&quot; Atmospheric Measurement Techniques, 2019.'
 ---
-[Access paper here](https://www.atmos-meas-tech.net/12/5183/2019/){:target="_blank"}

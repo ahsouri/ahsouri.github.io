@@ -8,6 +8,3 @@ venue: 'Atmospheric Measurement Techniques'
 paperurl: 'https://amt.copernicus.org/articles/15/41/2022/'
 citation: ' Amir Souri,  Kelly Chance,  Kang Sun,  Xiong Liu,  Matthew Johnson, &quot;Dealing with spatial heterogeneity in pointwise-to-gridded- data comparisons.&quot; Atmospheric Measurement Techniques, 2022.'
 ---
-Publisher: Copernicus GmbH
-
-[Access paper here](https://amt.copernicus.org/articles/15/41/2022/){:target="_blank"}
