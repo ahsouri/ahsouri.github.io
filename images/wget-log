@@ -1,0 +1,16 @@
+--2022-12-15 12:01:26--  https://static.scholar.harvard.edu/files/styles/os_files_large/public/asouri/files/screen_shot_2022-01-05_at_11.19.41_am.png?m=1641399666
+Resolving static.scholar.harvard.edu (static.scholar.harvard.edu)... 2600:9000:2105:c200:17:ea88:5980:93a1, 2600:9000:2105:ae00:17:ea88:5980:93a1, 2600:9000:2105:e800:17:ea88:5980:93a1, ...
+Connecting to static.scholar.harvard.edu (static.scholar.harvard.edu)|2600:9000:2105:c200:17:ea88:5980:93a1|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://scholar.harvard.edu/files/styles/os_files_large/public/asouri/files/screen_shot_2022-01-05_at_11.19.41_am.png?m=1641399666 [following]
+--2022-12-15 12:01:26--  https://scholar.harvard.edu/files/styles/os_files_large/public/asouri/files/screen_shot_2022-01-05_at_11.19.41_am.png?m=1641399666
+Resolving scholar.harvard.edu (scholar.harvard.edu)... 18.208.82.203, 18.232.209.104
+Connecting to scholar.harvard.edu (scholar.harvard.edu)|18.208.82.203|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 135569 (132K) [image/png]
+Saving to: ‘screen_shot_2022-01-05_at_11.19.41_am.png?m=1641399666’
+
+                    screen_shot_2022-01   0%[                                                                               ]       0  --.-KB/s               screen_shot_2022-01-05_at_11.19.41_am.p 100%[==============================================================================>] 132.39K  --.-KB/s    in 0.06s   
+
+2022-12-15 12:01:27 (2.10 MB/s) - ‘screen_shot_2022-01-05_at_11.19.41_am.png?m=1641399666’ saved [135569/135569]
+
