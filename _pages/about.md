@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-__I am an atmospheric physicist at Harvard-Smithsonian Center for Astrophysics under supervision Dr. Kelly Chance who is one of the pioneers in trace gases retrievals from satellites, and the PI of TEMPO.__
+__I am associate research scientist working at NASA GSFC at Atmospheric Chemistry and Dynamics (614) lab and GESTAR II (Morgan State University).__
 I have pursued research on a range of diverse topics, including:
 
 - Inverse modeling/Data Assimilation including LETKF, 3Dvar, analytical non-linear inversion, multi-sensor/multi-species
