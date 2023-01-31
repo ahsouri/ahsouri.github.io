@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-__I am associate research scientist working at NASA GSFC at Atmospheric Chemistry and Dynamics (614) lab and GESTAR II (Morgan State University).__
+__I am an associate research scientist working at NASA GSFC at Atmospheric Chemistry and Dynamics (614) lab and GESTAR II (Morgan State University).__
 I have pursued research on a range of diverse topics, including:
 
 - Inverse modeling/Data Assimilation including LETKF, 3Dvar, analytical non-linear inversion, multi-sensor/multi-species
