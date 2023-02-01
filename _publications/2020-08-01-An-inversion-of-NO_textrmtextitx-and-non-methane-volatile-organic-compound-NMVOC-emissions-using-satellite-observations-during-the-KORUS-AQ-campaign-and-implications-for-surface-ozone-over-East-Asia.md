@@ -2,7 +2,6 @@
 title: "An inversion of NOx and non-methane volatile organic compound (NMVOC) emissions using satellite observations during the KORUS-AQ campaign and implications for surface ozone over East Asia"
 collection: publications
 permalink: /publication/2020-08-01-An-inversion-of-NO_textrmtextitx-and-non-methane-volatile-organic-compound-NMVOC-emissions-using-satellite-observations-during-the-KORUS-AQ-campaign-and-implications-for-surface-ozone-over-East-Asia
-excerpt: 'Publisher: Copernicus GmbH'
 date: 2020-08-01
 venue: 'Atmospheric Chemistry and Physics'
 paperurl: 'https://acp.copernicus.org/articles/20/9837/2020/'

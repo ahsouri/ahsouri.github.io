@@ -2,7 +2,6 @@
 title: "Unraveling pathways of elevated ozone induced by the 2020 lockdown in Europe by an observationally constrained regional model using TROPOMI"
 collection: publications
 permalink: /publication/2021-12-01-Unraveling-pathways-of-elevated-ozone-induced-by-the-2020-lockdown-in-Europe-by-an-observationally-constrained-regional-model-using-TROPOMI
-excerpt: 'Publisher: Copernicus GmbH'
 date: 2021-12-01
 venue: 'Atmospheric Chemistry and Physics'
 paperurl: 'https://acp.copernicus.org/articles/21/18227/2021/'

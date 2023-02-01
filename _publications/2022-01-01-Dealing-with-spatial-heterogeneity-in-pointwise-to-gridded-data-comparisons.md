@@ -2,7 +2,6 @@
 title: "Dealing with spatial heterogeneity in pointwise-to-gridded- data comparisons"
 collection: publications
 permalink: /publication/2022-01-01-Dealing-with-spatial-heterogeneity-in-pointwise-to-gridded-data-comparisons
-excerpt: 'Publisher: Copernicus GmbH'
 date: 2022-01-01
 venue: 'Atmospheric Measurement Techniques'
 paperurl: 'https://amt.copernicus.org/articles/15/41/2022/'
