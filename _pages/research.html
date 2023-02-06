@@ -6,6 +6,54 @@ author_profile: true
 ---
 
 <h2>
+	<strong>Breaking down errors in satellite-based HCHO/NO2 ratios</strong>
+</h2>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width:100%;">
+	<tbody>
+		<tr>
+			<td style="width:60%">
+
+				<p>
+					<img src="/images/ratio_error.png" alt="Problem of scale" height="500" width="1000">
+				</p>
+
+				<p style="text-align:center;">
+					<strong>Please take a look at <a data-url="https://acp.copernicus.org/preprints/acp-2022-410/" href="https://acp.copernicus.org/preprints/acp-2022-410/" title="">here</a>&nbsp;for more information.</strong>
+				</p>
+			</td>
+			<td style="width:40%">
+				<p>Advancements in satellite remote-sensing of <strong>formaldehyde (HCHO) and nitrogen oxide (NO<sub>2</sub>) </strong>compounds have encouraged many to utilize columnar <strong>HCHO/NO<sub>2</sub> ratios </strong>to diagnose ozone (O<sub>3</sub>) regimes meaning if t<strong>he ozone production rates are sensitive to NOx (i.e., NOx-sensitive) or VOC (i.e., VOC-sensitive)</strong>. We show such a diagnosis cannot be performed <strong>in a robust manner</strong> unless we carefully quantify/mitigate <strong>four major sources of error</strong>: <strong>i) inherent chemical uncertainties associated with the approach of FNRs to diagnose sensitivity regimes <u>(20% error)</u>, ii) the capacity of tropospheric column satellite retrievals to represent the PBL- or surface-level environment (<u>19-37% error</u>), iii) spatial representativity of ground pixels of satellite sensors <u>(12-50% error)</u>, and iv) uncertainties associated with satellite-retrieved column-integrated concentrations of HCHO and NO<sub>2</sub> <u>(50-250%)</u>. </strong>We address all of them using a broad spectrum of tools and data. Furthermore, we will introduce a new metric that can be used in conjunction with the ratio to estimate the magnitude of PO3 &mdash; a pivotal quantify critical for understanding the spatial and temporal variability in locally-produced PO<sub>3</sub>.</p>	
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>
+	<strong>Mathematically Representing Spatial Representation Error</strong>
+</h2>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width:100%;">
+	<tbody>
+		<tr>
+			<td style="width:60%">
+
+				<p>
+					<img src="/images/street.png" alt="Problem of scale" height="500" width="1000">
+				</p>
+
+				<p style="text-align:center;">
+					<strong>Please take a look at <a data-url="https://acp.copernicus.org/preprints/acp-2022-410/" href="https://acp.copernicus.org/preprints/acp-2022-410/" title="">here</a>&nbsp;for more information.</strong>
+				</p>
+			</td>
+			<td style="width:40%">
+				<p>A <strong>critical</strong> error in the <strong>satellite</strong>-based observations or <strong>model</strong>-based fields is from <strong>unresolved spatial variability</strong> in trace gas concentrations <strong>within</strong> a satellite <strong>pixel</strong> or a model <strong>grid</strong> (Souri et al., 2022). The amount of spatial variability which is unresolved, or the <strong>representation error,</strong> can in principle be modeled if we base our reference on a distribution map made from a high spatial resolution dataset. We developed a method based on <strong>modeling isotropic semivariogram</strong> to quantify the amount of spatial information lost for different ground pixel sizes and length scales. Our method is compelling to understand and easy to apply to other products and different atmospheric environments. We developed an open-source package called SpaTial Representation Error EstimaTor (STREET) (https://github.com/ahsouri/STREET) based on this approach for everyone to use.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>
 	<strong>The problem of scale </strong>
 </h2>
 
