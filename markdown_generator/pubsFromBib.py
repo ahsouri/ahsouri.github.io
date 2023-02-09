@@ -27,7 +27,7 @@ import re
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "journal":{
-        "file": "../files/pub/CV_test.bib",
+        "file": "files/pub/cv.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
@@ -143,7 +143,7 @@ for pubsource in publist:
 
             md_filename = os.path.basename(md_filename)
 
-            with open("../_publications/" + md_filename, 'w') as f:
+            with open("_publications/" + md_filename, 'w') as f:
                 f.write(md)
             print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
