@@ -116,7 +116,6 @@ author_profile: true
   </tbody>
 </table>
 
-<!-- Continue with the same pattern for other tables -->
 <table class="software-table">
   <thead>
     <tr>
@@ -140,4 +139,71 @@ author_profile: true
   </tbody>
 </table>
 
-<!-- Add remaining tables following the same structure -->
+<table class="software-table">
+  <thead>
+    <tr>
+      <th colspan="2">
+        <h1>demalos</h1>
+        <div>Language: Python</div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/dem.png" alt="demalos screenshot">
+      </td>
+      <td>
+        <p>For many different applications including weather forecast modeling, or satellite retrievals, we are required to provide digital elevation maps at high resolution spatial resolution covering the whole globe. My toolbox will automatically download ALOS DEM at 30 m and save the subset of the data, depending on the boundary box defined by the user, into geotiff and netcdf formats.</p>
+        <pre>shortcut: pip install demalos</pre>
+        <p><a href="https://github.com/ahsouri/demalos">https://github.com/ahsouri/demalos</a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="software-table">
+  <thead>
+    <tr>
+      <th colspan="2">
+        <h1>GOESVisualizer</h1>
+        <div>Language: Python</div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/goessample.png" alt="GOESVisualizer screenshot">
+      </td>
+      <td>
+        <p>It is sometimes useful to visualize the #GOES16/17 RGB imagery over your region/time of interest without having to pre-download the files. This simple toolbox will do the job.</p>
+        <pre>shortcut: pip install GOESVisualizer</pre>
+        <p><a href="https://github.com/ahsouri/GOESVisualizer">https://github.com/ahsouri/GOESVisualizer</a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="software-table">
+  <thead>
+    <tr>
+      <th colspan="2">
+        <h1>MSATwtdenoiser</h1>
+        <div>Language: Python</div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/example_wtdenoised_xch4.png" alt="MSATwtdenoiser example">
+      </td>
+      <td>
+        <p>Can you guess what the left panel is showing? It's XCH4 retrieved from the synthetic MethaneSAT data over Barnett. The plume is completely buried by noise despite SNR~200 as XCH4 is extremely sensitive to the radiance accuracy. The right panel uses a wavelet to denoise it. The same method can be applied to other noisy images (such as CHOCHO, HCHO, and SO<sub>2</sub>).</p>
+        <pre>shortcut: pip install MSATwtdenoiser</pre>
+        <p><a href="https://github.com/ahsouri/MSATwtdenoiser">https://github.com/ahsouri/MSATwtdenoiser</a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
