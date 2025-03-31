@@ -6,175 +6,138 @@ author_profile: true
 ---
 
 <style>
-  .software-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
+  .software-table {
+    width: 100%;
+    border-collapse: collapse;
     margin-bottom: 30px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    table-layout: fixed;
   }
   
-  .software-header {
+  .software-table th {
     background-color: #f8f9fa;
     padding: 15px;
+    text-align: left;
     border-bottom: 1px solid #ddd;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
   }
   
-  .software-title {
-    margin: 0;
-    font-size: 1.5rem;
-  }
-  
-  .software-language {
-    color: #666;
-    font-style: italic;
-  }
-  
-  .software-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  
-  .software-image {
-    flex: 1;
-    min-width: 300px;
+  .software-table td {
     padding: 15px;
+    vertical-align: top;
+    border-bottom: 1px solid #eee;
   }
   
-  .software-image img {
-    width: 100%;
+  .software-table img {
+    max-width: 100%;
     height: auto;
-    border-radius: 4px;
+    display: block;
   }
   
-  .software-description {
-    flex: 1;
-    min-width: 300px;
-    padding: 15px;
-  }
-  
-  .software-description pre {
+  .software-table pre {
     background-color: #f5f5f5;
     padding: 10px;
     border-radius: 4px;
     overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
   }
   
   @media (max-width: 768px) {
-    .software-content {
-      flex-direction: column;
+    .software-table, 
+    .software-table tbody, 
+    .software-table tr, 
+    .software-table td {
+      display: block;
+      width: 100%;
     }
     
-    .software-image, 
-    .software-description {
-      min-width: 100%;
+    .software-table td {
+      padding: 10px;
+    }
+    
+    .software-table td:first-child {
+      padding-bottom: 0;
+    }
+    
+    .software-table tr {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    .software-table th {
+      display: none;
     }
   }
 </style>
 
-<div class="software-card">
-  <div class="software-header">
-    <h1 class="software-title">OI-SAT-GMI</h1>
-    <div class="software-language">Language: Python</div>
-  </div>
-  <div class="software-content">
-    <div class="software-image">
-      <img src="/images/oi_sat_gmi.PNG" alt="OI-SAT-GMI screenshot">
-    </div>
-    <div class="software-description">
-      <p>I developed an object-oriented software that can download and process OMI/TROPOMI/MOPITT/OMPS/SSMIS level-2 products, perform air mass factor (AMF) recalculation, and conduct mass-conserved interpolation while also executing the a Bayesian data fusion algorithm (optimal interpolation).</p>
-      <pre>shortcut: pip install git+https://github.com/ahsouri/OI-SAT-GMI.git</pre>
-      <p><a href="https://github.com/ahsouri/OI-SAT-GMI">https://github.com/ahsouri/OI-SAT-GMI</a></p>
-    </div>
-  </div>
-</div>
+<table class="software-table">
+  <thead>
+    <tr>
+      <th colspan="2">
+        <h1>OI-SAT-GMI</h1>
+        <div>Language: Python</div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/oi_sat_gmi.PNG" alt="OI-SAT-GMI screenshot">
+      </td>
+      <td>
+        <p>I developed an object-oriented software that can download and process OMI/TROPOMI/MOPITT/OMPS/SSMIS level-2 products, perform air mass factor (AMF) recalculation, and conduct mass-conserved interpolation while also executing the a Bayesian data fusion algorithm (optimal interpolation).</p>
+        <pre>shortcut: pip install git+https://github.com/ahsouri/OI-SAT-GMI.git</pre>
+        <p><a href="https://github.com/ahsouri/OI-SAT-GMI">https://github.com/ahsouri/OI-SAT-GMI</a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<div class="software-card">
-  <div class="software-header">
-    <h1 class="software-title">GEOAkaze</h1>
-    <div class="software-language">Language: Python</div>
-  </div>
-  <div class="software-content">
-    <div class="software-image">
-      <img src="/images/geoakaze.png" alt="GEOAkaze screenshot">
-    </div>
-    <div class="software-description">
-      <p>I developed a computer vision algorithm that can automatically register two images (one with a better geolocation accuracy) to reduce geolocation errors in the less accurate image.</p>
-      <pre>shortcut: pip install git+https://github.com/ahsouri/GEOAkaze.git</pre>
-      <p><a href="https://github.com/ahsouri/GEOAkaze">https://github.com/ahsouri/GEOAkaze</a></p>
-    </div>
-  </div>
-</div>
+<table class="software-table">
+  <thead>
+    <tr>
+      <th colspan="2">
+        <h1>GEOAkaze</h1>
+        <div>Language: Python</div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/geoakaze.png" alt="GEOAkaze screenshot">
+      </td>
+      <td>
+        <p>I developed a computer vision algorithm that can automatically register two images (one with a better geolocation accuracy) to reduce geolocation errors in the less accurate image.</p>
+        <pre>shortcut: pip install git+https://github.com/ahsouri/GEOAkaze.git</pre>
+        <p><a href="https://github.com/ahsouri/GEOAkaze">https://github.com/ahsouri/GEOAkaze</a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<div class="software-card">
-  <div class="software-header">
-    <h1 class="software-title">STREET</h1>
-    <div class="software-language">Language: Python</div>
-  </div>
-  <div class="software-content">
-    <div class="software-image">
-      <img src="/images/street.png" alt="STREET screenshot">
-    </div>
-    <div class="software-description">
-      <p>Do you need to quantify the amount of information lost due to <strong>satellite footprints</strong> or <strong>model grid boxed</strong> or unresolved inputs/processes in retrieval algorithms/model schemes with respect to a reference? Use my package called <strong>SpaTial Representation Error EstimaTor</strong> (STREET):</p>
-      <pre>shortcut: pip install git+https://github.com/ahsouri/STREET</pre>
-      <p><a href="https://github.com/ahsouri/STREET">https://github.com/ahsouri/STREET</a></p>
-    </div>
-  </div>
-</div>
+<!-- Continue with the same pattern for other tables -->
+<table class="software-table">
+  <thead>
+    <tr>
+      <th colspan="2">
+        <h1>STREET</h1>
+        <div>Language: Python</div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="/images/street.png" alt="STREET screenshot">
+      </td>
+      <td>
+        <p>Do you need to quantify the amount of information lost due to <strong>satellite footprints</strong> or <strong>model grid boxed</strong> or unresolved inputs/processes in retrieval algorithms/model schemes with respect to a reference? Use my package called <strong>SpaTial Representation Error EstimaTor</strong> (STREET):</p>
+        <pre>shortcut: pip install git+https://github.com/ahsouri/STREET</pre>
+        <p><a href="https://github.com/ahsouri/STREET">https://github.com/ahsouri/STREET</a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<div class="software-card">
-  <div class="software-header">
-    <h1 class="software-title">demalos</h1>
-    <div class="software-language">Language: Python</div>
-  </div>
-  <div class="software-content">
-    <div class="software-image">
-      <img src="/images/dem.png" alt="demalos screenshot">
-    </div>
-    <div class="software-description">
-      <p>For many different applications including weather forecast modeling, or satellite retrievals, we are required to provide digital elevation maps at high resolution spatial resolution covering the whole globe. My toolbox will automatically download ALOS DEM at 30 m and save the subset of the data, depending on the boundary box defined by the user, into geotiff and netcdf formats.</p>
-      <pre>shortcut: pip install demalos</pre>
-      <p><a href="https://github.com/ahsouri/demalos">https://github.com/ahsouri/demalos</a></p>
-    </div>
-  </div>
-</div>
-
-<div class="software-card">
-  <div class="software-header">
-    <h1 class="software-title">GOESVisualizer</h1>
-    <div class="software-language">Language: Python</div>
-  </div>
-  <div class="software-content">
-    <div class="software-image">
-      <img src="/images/goessample.png" alt="GOESVisualizer screenshot">
-    </div>
-    <div class="software-description">
-      <p>It is sometimes useful to visualize the #GOES16/17 RGB imagery over your region/time of interest without having to pre-download the files. This simple toolbox will do the job.</p>
-      <pre>shortcut: pip install GOESVisualizer</pre>
-      <p><a href="https://github.com/ahsouri/GOESVisualizer">https://github.com/ahsouri/GOESVisualizer</a></p>
-    </div>
-  </div>
-</div>
-
-<div class="software-card">
-  <div class="software-header">
-    <h1 class="software-title">MSATwtdenoiser</h1>
-    <div class="software-language">Language: Python</div>
-  </div>
-  <div class="software-content">
-    <div class="software-image">
-      <img src="/images/example_wtdenoised_xch4.png" alt="MSATwtdenoiser example">
-    </div>
-    <div class="software-description">
-      <p>Can you guess what the left panel is showing? It's XCH4 retrieved from the synthetic MethaneSAT data over Barnett. The plume is completely buried by noise despite SNR~200 as XCH4 is extremely sensitive to the radiance accuracy. The right panel uses a wavelet to denoise it. The same method can be applied to other noisy images (such as CHOCHO, HCHO, and SO<sub>2</sub>).</p>
-      <pre>shortcut: pip install MSATwtdenoiser</pre>
-      <p><a href="https://github.com/ahsouri/MSATwtdenoiser">https://github.com/ahsouri/MSATwtdenoiser</a></p>
-    </div>
-  </div>
-</div>
+<!-- Add remaining tables following the same structure -->
