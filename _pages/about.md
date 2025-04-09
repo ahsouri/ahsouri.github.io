@@ -10,11 +10,12 @@ redirect_from:
 __I am an associate research scientist working at NASA GSFC at Atmospheric Chemistry and Dynamics (614) lab and GESTAR II (Morgan State University).__
 I have pursued research on a range of diverse topics, including:
 
-- Inverse modeling/data Assimilation including LETKF, 3Dvar, analytical non-linear inversion, multi-sensor/multi-species
-- Atmospheric modeling including simulations of atmospheric chemistry over southeast Texas, CONUS, East Asia, and Europe; dynamics of hurricane Harvey and severe weather such as heatwaves
+- Prediction of net ozone production rates from space using ML ([CheckHere](https://www.ozonerates.space))
+- Inverse modeling/data assimilation including LETKF, 3Dvar, analytical non-linear inversion, multi-sensor/multi-species
+- Atmospheric modeling including simulations of atmospheric chemistry over southeast Texas, CONUS, East Asia, and Europe; dynamics of hurricanes such as Harvey and severe weather events such as heatwaves
 - Idealized simulation such as 0-D chemical box modeling
-- Tropospheric ozone: trend and sensitivity to meteorology and precursors
-- Observing System Simulation Experiment (OSSE) designed for upcoming satellites (e.g., MethaneSAT)
+- Tropospheric ozone and OH: trend and sensitivity to meteorology and precursors/proxies
+- Observing System Simulation Experiment (OSSE) designed for satellites (e.g., MethaneSAT)
 - Data analysis and retrievals/models validation
 - Spatial heterogeneity modeling
 
