@@ -20,3 +20,5 @@ I have pursued research on a range of diverse topics, including:
 - Spatial heterogeneity modeling
 
 Please check my [CV](cv) or [Research](research) for specific studies that I have worked on.
+
+ 
