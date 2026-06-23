@@ -7,6 +7,6 @@ redirect_from:
   - /resume
 ---
 
-Last Update (July 2025)
+Last Update (July 2026)
 
 You can download a PDF copy of my CV [here](/files/pdf/CV_Souri_June23.pdf).
