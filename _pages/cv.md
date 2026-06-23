@@ -9,4 +9,4 @@ redirect_from:
 
 Last Update (July 2025)
 
-You can download a PDF copy of my CV [here](/files/pdf/cv_souri_july_2025.pdf).
+You can download a PDF copy of my CV [here](/files/pdf/CV_Souri_June23.pdf).
